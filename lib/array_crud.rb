@@ -10,6 +10,7 @@ def add_element_to_end_of_array(array, element)
   different_colors = ["blue","green","purple","red"]
   different_colors << "orange"
 end
+p different_colors
 
 def add_element_to_start_of_array(array, element)
   
