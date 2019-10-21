@@ -13,8 +13,9 @@ end
 p different_colors
 
 def add_element_to_start_of_array(array, element)
-  different_colors
+  different_colors.unshift ("black")
 end
+p different_colors
 
 def remove_element_from_end_of_array(array)
   
